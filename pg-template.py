@@ -55,7 +55,7 @@ class Game:
                     if self.player.selected:
                         if (grid_x, grid_y) in self.valid_positions:
                             self.player.move_to(grid_x, grid_y)
-                            self.player.selected = False
+                    self.player.selected = False
 
     def update(self):
         # Game Loop - Update
